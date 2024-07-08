@@ -163,7 +163,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     width: 1100px;
-    background-image: url(../image/banner/sub_banner/circle.png);
+    background-image: url(../image/main/page/circle.png);
     background-repeat: no-repeat;
     background-position: left top;
     padding-top:  37px
@@ -173,7 +173,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     width: 1100px;
-    background-image: url(../image/banner/sub_banner/circle.png);
+    background-image: url(../image/main/page/circle.png);
     background-repeat: no-repeat;
     background-position: right top;
     padding-top:  37px;
