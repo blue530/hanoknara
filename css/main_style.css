@@ -66,6 +66,7 @@ body {
 
 #wrap {
     min-width: 1400px;
+    overflow: hidden;
 }
 
 #header {
@@ -105,12 +106,18 @@ h1 {
     color: #FFEDE5;
     font-size: 20px;
 }
-
 #banner {
-    background: url(../image/main/top/01.png) no-repeat center;
+    overflow: hidden;
     height: 900px;
+    position: relative;
 }
-
+#banner ul li{
+    width: 1920px;
+    position: absolute;    
+    top: 0;
+    left: 50%;
+    margin-left: -960px;
+} 
 #container {
     background: url(../image/main/background.jpg);
 }
