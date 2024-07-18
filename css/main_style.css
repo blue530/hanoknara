@@ -15,7 +15,7 @@
     font-style: normal;
 }
 
-.track{
+.track {
     animation: textflow1 6s linear infinite;
 }
 
@@ -106,18 +106,21 @@ h1 {
     color: #FFEDE5;
     font-size: 20px;
 }
+
 #banner {
     overflow: hidden;
     height: 900px;
     position: relative;
 }
-#banner ul li{
+
+#banner ul li {
     width: 1920px;
-    position: absolute;    
+    position: absolute;
     top: 0;
     left: 50%;
     margin-left: -960px;
-} 
+}
+
 #container {
     background: url(../image/main/background.jpg);
 }
@@ -147,6 +150,7 @@ h1 {
     justify-content: space-between;
     margin-top: 168px;
 }
+
 .title1 {
     padding-top: 114px;
     padding-right: 40px;
@@ -173,7 +177,7 @@ h1 {
     background-image: url(../image/main/page/circle.png);
     background-repeat: no-repeat;
     background-position: left top;
-    padding-top:  37px
+    padding-top: 37px
 }
 
 .content2 {
@@ -183,7 +187,7 @@ h1 {
     background-image: url(../image/main/page/circle.png);
     background-repeat: no-repeat;
     background-position: right top;
-    padding-top:  37px;
+    padding-top: 37px;
 }
 
 .cover_wrap {
