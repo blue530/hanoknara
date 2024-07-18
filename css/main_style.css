@@ -246,11 +246,21 @@ h1 {
     font-size: 19px;
     text-align: left;
     line-height: 50px;
-    padding: 70px;
+    width: 200px;
     padding-top: 89px;
 }
 
 .description4 {
+    font-family: Cafe24Oneprettynight;
+    font-weight: bold;
+    font-size: 19px;
+    text-align: left;
+    line-height: 50px;
+    width: 420px;
+    padding-top: 89px;
+}
+
+.description5 {
     margin-left: 40px;
     font-weight: bold;
     font-size: 20px;
