@@ -1,0 +1,283 @@
+@charset "utf-8";
+
+/* webfont */
+@font-face {
+    font-family: 'WandohopeR';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/WandohopeR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24Oneprettynight';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.track {
+    animation: textflow1 6s linear infinite;
+}
+
+html,
+body,
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+span,
+strong,
+table,
+th,
+td,
+em,
+form,
+input,
+textarea,
+img,
+video {
+    margin: 0;
+    padding: 0;
+}
+
+/* html{
+    font-size: ;
+} */
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'WandohopeR';
+    font-size: 19px;
+    color: #000;
+    line-height: 1.5em;
+}
+
+#wrap {
+    min-width: 1400px;
+}
+
+#header {
+    background-color: #CCB8AF;
+}
+
+.inner_header {
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0 200px;
+}
+h2{
+    margin-top: 60px;
+    text-align: center;
+}
+h3{
+    margin-left: 184px;
+}
+
+.menu {
+    margin: 0 100px;
+}
+
+.gnb {
+    display: flex;
+    padding-top: 8px;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.gnb li a {
+    margin: 0 20px;
+    font-weight: bold;
+    color: #775548;
+}
+
+.gnb li a:hover {
+    color: #FFEDE5;
+    font-size: 20px;
+}
+
+#banner {
+    background: url(../image/sub/1/top/01.png) no-repeat center;
+    height: 900px;
+}
+
+
+
+#container {
+    font-family: Cafe24Oneprettynight;
+    width: 1320px;
+    margin: 0 auto;
+}
+
+.hanok_introduce {
+    display: flex;
+
+}
+
+.explanation {
+    font-size: 20px;
+    line-height: 1.8em;
+    padding-top: 110px;
+    padding-left: 40px;
+}
+
+.explanation1 {
+    padding-top: 40px;
+}
+
+.explanation2 {
+    text-align: right;
+    padding-top: 50px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+}
+.explanation3{
+    margin-bottom: 50px;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.slogan1 {
+    padding-top: 335px;
+    font-weight: bold;
+    font-size: 29px;
+}
+
+.slogan2 {
+    font-weight: bold;
+    font-size: 29px;
+    padding-top: 80px;
+}
+
+.title1 {
+    margin-left: 550px;
+    margin-top: 169px;
+    margin-bottom: 100px;
+}
+
+.title2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    margin-bottom: 70px;
+}
+
+.hanok2{
+    margin-bottom: 100px;
+}
+
+.hanok3 {
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.hanok4 {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hanok5 {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hanok6 {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.hanok7 {
+    padding-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 130px;
+}
+.hanok7_1{
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.hanok8_1{
+    text-align: end;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+#footer {
+    margin-top: 100px;
+    background-color: #CCB8AF;
+    font-family: 'WandohopeR';
+   
+}
+
+.inner_footer {
+    font-family: 'WandohopeR';
+    font-weight: bold;
+    display: flex;
+    width: 1320px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.logo {
+    width: 200px;
+    padding-top: 50px;
+}
+
+.menu_wrap {
+    width: 1000px;
+}
+
+.set {
+    display: flex;
+    margin-bottom: 43px;
+    margin-left: 40px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.set li {
+    margin-right: 30px;
+}
+
+.set li:hover {
+    color: #FFEDE5;
+    font-size: 20px;
+}
+
+.sns {
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 170px;
+}
+.description5 {
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
