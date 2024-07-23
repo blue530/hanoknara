@@ -39,6 +39,9 @@ form,
 input,
 textarea,
 img,
+h1,
+h2,
+h3,
 video {
     margin: 0;
     padding: 0;
@@ -84,7 +87,7 @@ h1 {
     margin: 0 200px;
 }
 h2{
-    margin-top: 60px;
+    margin-top: 20px;
     text-align: center;
 }
 h3{
@@ -143,6 +146,7 @@ h3{
 .stay_01 li,
 .hanbok_01 li{
     background-color: #C9B3A9;
+    height: 520px;
 }
 .show_01 li:hover,
 .gong-ye_01 li:hover,
