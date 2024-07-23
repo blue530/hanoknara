@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="44" height="43" viewBox="0 0 44 43">
+  <defs>
+    <pattern id="pattern" preserveAspectRatio="none" width="100%" height="100%" viewBox="0 0 42 41">
+      <image width="42" height="41" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAApCAYAAABDV7v1AAAACXBIWXMAAAsSAAALEgHS3X78AAAC2ElEQVRYhc2Y0ZGcMAyGlZ17Pzo4roKjg2wqyHYQUkHoINtB6CB0EDoI1wHbAdcBVOCMMtKOxmskG5Pb/DMe2MWGD1mWZD445yBDBQAcAaCiY0gTtYHaNiHohlY750aXrtk51znnqtRnpkI29LA9NDjnjnuDogWmnQB9tc65Yg/Q5h8BSo2WO1iQ3TtAsmYN9n+BNGHXIM93gFRhQ3H0BAC/jFi3AEBP8TFVeP8XY8yF4vJ8/ccjLyLCT9QqNdoxIg6fNYu2APBNedOvANDReUXWSdFM42fKanj+WRn/fJ01QV0ab9gIqw+Jfic1U2bje2nxuQstplYZMIl+W1JnSAx7NPqVPqjmm2zNOgOMV3MnfrOva1ZFA8KBfAF97VHxlZGOteGPGA1eRQuJK6hH8nMwqqqT9FFt2p2w+ppvzmR1PxoU3r39WeOVbcXt8oGoK+WNLC0U89DqBVmgot8Yaxs6/2nMmqYjg37MAGUQBOw8mAu5S0fwWujTVB42DmS9EUQJt5BAGYjjbpvxnOqgbCFi1FOfWpnWF3rGRBbeoiLXopyLS6MfG2M2+q0qF5RlFSejcd3UIfMmnOt7pc9CcbLIWbSHnOkQ/jdSwRKC5HKtyXjOwOHpElEjrolDDx4Hkb1kpYTXv2eATgw6ZoA+0XgERNCzd70J/JeqkUHxAV+UwZXhywj7m2aG/ZWz1JMybhR917T87SdysqY6MienqogoHTu/zNN2nUPCViVW58h6tPJBK2PAacevJl1EReaEgW72TL2yhwlVSSfDv0I+2Yv6szPWxqdrX69+LI2pnUW1n9PQhXrD6r21r8dw8sOwzJuImymSM6HVpgvVD6v7+nt+zpG6+Ry5BlrsuNtMVR1i0vzsHrBBSAv0Pd1gFuFvMyjv5/cK9L4G/siwByi7wp7WnbSpzgGVsbbNsDD6fTSgFkdThJmKG8a9UKWEFRVmJM5K6d9UAeAPmjAWPlX/JVMAAAAASUVORK5CYII="/>
+    </pattern>
+  </defs>
+  <rect id="인스타그램" width="44" height="43" fill="url(#pattern)"/>
+</svg>
