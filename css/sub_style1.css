@@ -39,6 +39,9 @@ form,
 input,
 textarea,
 img,
+h1,
+h2,
+h3,
 video {
     margin: 0;
     padding: 0;
