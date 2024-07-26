@@ -1,0 +1,239 @@
+@charset "utf-8";
+
+/* webfont */
+@font-face {
+    font-family: 'WandohopeR';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/WandohopeR.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cafe24Oneprettynight';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.track {
+    animation: textflow1 6s linear infinite;
+}
+
+html,
+body,
+div,
+p,
+ul,
+ol,
+li,
+dl,
+dt,
+dd,
+span,
+strong,
+table,
+th,
+td,
+em,
+form,
+input,
+textarea,
+img,
+h1,
+h2,
+h3,
+video {
+    margin: 0;
+    padding: 0;
+}
+
+/* html{
+    font-size: ;
+} */
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'WandohopeR';
+    font-size: 19px;
+    color: #000;
+    line-height: 1.5em;
+}
+
+#wrap {
+    min-width: 1400px;
+}
+
+#header {
+    background-color: #CCB8AF;
+}
+
+.inner_header {
+    width: 1320px;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+    margin: 0 auto;
+}
+h1 {
+    margin: 0 200px;
+}
+h2{
+    margin-top: 20px;
+    text-align: center;
+}
+h3{
+    margin-left: 170px;
+}
+
+.menu {
+    margin: 0 100px;
+}
+
+.gnb {
+    display: flex;
+    padding-top: 8px;
+    font-size: 20px;
+    margin: 0 20px;
+}
+
+.gnb li a {
+    margin: 0 20px;
+    font-weight: bold;
+    color: #775548;
+}
+
+.gnb li a:hover {
+    color: #FFEDE5;
+    font-size: 20px;
+}
+
+#banner {
+    background: url(../image/sub/4/top/01.png) no-repeat center;
+    height: 882px;
+    margin-bottom: 100px;
+}
+
+#container {
+    font-family: 'Cafe24Oneprettynight';
+    color: #473127;
+    width: 1320px;
+    margin: 0 auto;
+    text-align: center;
+    /* line-height: 10px; */
+}
+
+.add{
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 35px;
+}
+.mock-up{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+}
+
+.mock-up_01,
+.mock-up_02,
+.mock-up_03{
+    margin-top: 30px;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mock-up_02 li,
+.mock-up_03 li{
+    height: 370px;
+    width: 417px;
+    margin: 100px auto;
+    border-radius: 38%;
+}
+.img{
+    overflow: hidden;
+    border-radius: 30%;
+    cursor: pointer;
+    text-align: center;
+}
+.mock-up_01 img:hover,
+.mock-up_02 img:hover,
+.mock-up_03 img:hover{
+    transform: translate(15px,15px);
+}
+.mock-up img{
+    /* display: block; */
+    display: inline-block;
+    width: 100%;
+    transition: transform 0.2s;
+}
+.slogan{
+    font-family: 'Cafe24Oneprettynight';
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    justify-content: end;
+}
+
+#footer {
+    margin-top: 100px;
+    background-color: #CCB8AF;
+    font-family: 'WandohopeR';
+}
+
+.inner_footer {
+    font-family: 'WandohopeR';
+    font-weight: bold;
+    display: flex;
+    width: 1320px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+
+.logo {
+    width: 200px;
+    padding-top: 50px;
+}
+
+.menu_wrap {
+    width: 1000px;
+}
+
+.set {
+    display: flex;
+    margin-bottom: 43px;
+    margin-left: 40px;
+    padding-top: 30px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.set li {
+    margin-right: 30px;
+}
+
+.set li:hover {
+    color: #FFEDE5;
+    font-size: 20px;
+}
+
+.sns {
+    width: 240px;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 170px;
+}
+.description5 {
+    margin-left: 40px;
+    font-weight: bold;
+    font-size: 20px;
+}
